@@ -1,9 +1,14 @@
-package com.example.composebootcamp_pagehomework.ui.screens
+package com.example.composebootcamp_pagehomework.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.composebootcamp_pagehomework.ui.screens.Anasayfa
+import com.example.composebootcamp_pagehomework.ui.screens.SayfaA
+import com.example.composebootcamp_pagehomework.ui.screens.SayfaB
+import com.example.composebootcamp_pagehomework.ui.screens.SayfaX
+import com.example.composebootcamp_pagehomework.ui.screens.SayfaY
 
 @Composable
 fun PageTransition(){
